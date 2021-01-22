@@ -1,7 +1,7 @@
 let country = prompt('Укажите страну в которую хотите совершить доставку');
-console.log(country);
+
 const normalizedInput = country.toLowerCase(0);
-console.log(normalizedInput);
+
 let price;
 
 switch (country) {
